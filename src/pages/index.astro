@@ -3,11 +3,26 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<div class="text-blue-500">
-			<p>ほげほげ</p>
-			<p>ふがふが</p>
+<Layout title="shuto's portfolio">
+	<main class="bg-cream text-gray-600 h-screen px-16 py-10 flex justify-center">
+		<div class="w-full">
+			<section class="w-full">
+				<div class="text-center">
+					<h1 class="text-3xl font-bold text-blue-600">About Me</h1>
+					<p>私について</p>
+				</div>
+				<div class="flex w-full h-[300px]">
+					<div class="w-1/2 flex justify-center items-center">
+						<p class="rounded-full bg-teal-500 w-[200px] h-[200px]"></p>
+					</div>
+					<div class="w-1/2 flex flex-col justify-center items-center">
+						<p class="text-center">X</p>
+						<p class="text-center">Bluesky</p>
+						<p class="text-center">Github</p>
+						<p class="text-center">Mail</p>
+					</div>
+				</div>
+			</section>
 		</div>
 	</main>
 </Layout>
